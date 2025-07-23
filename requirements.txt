@@ -1,0 +1,10 @@
+# requirements.txt
+streamlit>=1.34,<2
+pandas>=2.2
+requests>=2.31
+plotly>=5.20
+
+# 以下視需要再解開註解
+# ctransformers==0.2.27     # 量化小模型（CPU）
+# sentencepiece             # LLM tokenizer 依賴
+# python-dotenv             # 若想用 .env 方式管理本地環境變數
