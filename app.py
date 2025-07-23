@@ -3,7 +3,7 @@ import datetime
 from src.data_loader import get_stock_price
 from src.indicators import add_ma
 from src.charting import kline_with_ma
-from src.gpt_summary import summary
+#from src.gpt_summary import summary
 
 st.set_page_config("台股即時分析", layout="wide")
 st.sidebar.title("輸入參數")
